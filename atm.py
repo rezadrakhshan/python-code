@@ -175,12 +175,11 @@ def ATM():
             destination_number = int(input("enter destination numeber:"))
             charge = int(input("enter  the amount of charge you want:"))
             print(f"origin number : {origin_number}\ndestination number : {destination_number}\ncharge : {charge}\ntime : {time}\nBOZORGATM")
-
-    ATM()
-    for i in range(1000):
-        mm = input("do you have another transaction?(yes|no)")
-        if mm == "yes":
-            ATM()
-        else:
-            print("thank you for use BOZORGATM")
-            break
+ATM()
+for i in range(1000):
+    mm = input("do you have another transaction?(yes|no)")
+    if mm == "yes":
+        ATM()
+    else:
+        print("thank you for use BOZORGATM")
+        break
