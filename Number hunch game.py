@@ -5,7 +5,7 @@ ready = input("are you ready?")
 
 point = 60
 print("your pint is 60")
-mylist=[]
+
 
 for i in range(10):
     number = random.randint(1,10)
